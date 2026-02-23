@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { BASE, BASE_LIGHT, BASE_DARK, SHADOW_D, neu } from '../design.js'
+import { BASE, BASE_LIGHT, BASE_DARK, SHADOW_D, SHADOW_L, neu } from '../design.js'
 import { NeuBtn } from './UI.jsx'
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000'
